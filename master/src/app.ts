@@ -7,12 +7,12 @@ registerMicroApps([
     container: '#microApp',
     activeRule: '/react',
   },
-  // {
-  //   name: 'vueApp',
-  //   entry: '//localhost:9999',
-  //   container: '#microApp',
-  //   activeRule: '/vue',
-  // },
+  {
+    name: 'vueApp',
+    entry: '//localhost:9999',
+    container: '#microApp',
+    activeRule: '/vue',
+  },
 ]);
 
 start();
